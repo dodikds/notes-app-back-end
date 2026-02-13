@@ -10,7 +10,6 @@ app.use(express.json());
 app.use(cors({
     origin: '*'
 }));
-
 app.use('/', routes);
 
 app.listen(port, () => {
